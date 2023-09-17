@@ -1,0 +1,35 @@
+.control {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+
+  position: relative;
+  top: -5px;
+  content: "";
+  display: inline-block;
+  border-right: 0.2em solid black;
+  border-top: 0.2em solid black;
+  transform: rotate(135deg) translateY(50%);
+  margin-right: 0.5em;
+  margin-left: 1.0em;
+  top: 50%;
+
+  transition: .3s ease-in-out;
+}
+
+.active{
+    transform: rotate(-45deg);
+}
+
+.container{
+    font-size: 25px;
+}
+
+.residents{
+    padding: 20px;
+}
